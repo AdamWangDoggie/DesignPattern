@@ -1,6 +1,6 @@
 """
 Command Pattern,
-Encapsulation an operation to an object(in python it's class).
+Encapsulate an operation to an object(in python it's class).
 Then it can be executed, undid, and other method.
 So an operantion can be created intime but execute later, can be redone,
 even several operations can be organized as macro to execute in a row
