@@ -1,3 +1,8 @@
+"""
+Adapter Pattern.
+To Adapt or Make APIs Compatible.
+"""
+
 class Synthesizer:
 	def __init__(self,name):
 		self.name = name

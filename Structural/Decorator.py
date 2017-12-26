@@ -1,3 +1,8 @@
+"""
+Decorator Pattern.
+To make addition actions to func or methods without modify origin code.
+"""
+
 from functools import wraps
 
 def memoize(fn):
@@ -25,6 +30,3 @@ def fibonacci(n):
 	assert(n >= 0), 'n cannot be less than 0'
 	return n if n in (0,1) else fibonacci(n-1) + fibonacci(n-2)
 
-"""
-Use decorator to make addition actions without modify code in certain function.
-"""
